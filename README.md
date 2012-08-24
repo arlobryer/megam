@@ -1,6 +1,6 @@
 This is **NOT** my code. The original README is below followed by some additional instructions for smooth running on OSX 10.8.
 
-Original README:
+Original README
 ================
 The sources are in util.ml, data.ml, cg.ml, bfgs.ml and data.ml.
 There is a Makefile to you can build it on any system that has ocaml
@@ -35,10 +35,10 @@ For more information, go to:
 Thanks and enjoy!
 
 
-Additional OSX 10.8 Instructions:
+Additional OSX 10.8 Instructions
 --------------------------------
-Here are some additional instructions for building on OSX (tried on 10.8):
-You need to install ocaml. The easiest way of doing this is using Homebrew.
+Here are some additional instructions for building on OSX (tried on 10.8).
+You need to install ocaml. The easiest way of doing this is using [Homebrew](http://mxcl.github.com/homebrew/).
 
 The Makefile in this repository version has been amended to locate the necessary libraries
 for ocaml.

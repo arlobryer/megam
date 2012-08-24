@@ -41,7 +41,7 @@ Here are some additional instructions for building on OSX (tried on 10.8).
 You need to install ocaml. The easiest way of doing this is using [Homebrew](http://mxcl.github.com/homebrew/).
 
 The Makefile in this repository version has been amended to locate the necessary libraries
-for ocaml.
+for ocaml (assuming a Homebrew installation).
 
 Additionally the following needs to be run in the terminal:
 ```bash

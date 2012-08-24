@@ -30,7 +30,18 @@ For more information, go to:
 
 Thanks and enjoy!
 
+======================
+======================
+Additional OSX 10.8 Instructions:
+
 Here are some additional instructions for building on OSX (tried on 10.8):
 You need to install ocaml. The easiest way of doing this is using Homebrew.
 
+The Makefile in this repository version has been amended to locate the necessary libraries
+for ocaml.
+
+Additionally the following needs to be run in the terminal:
+```bash
 sudo ln /usr/local/lib/ocaml/libcamlstr.a /usr/local/lib/ocaml/libstr.a
+```
+to avoid an ld library error on -lstr.
